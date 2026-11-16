@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "kloccosmetics",
+  "version": "${version}",
+  "name": "KloccCosmetics",
+  "description": "Kosmetyka tylko po stronie klienta: skrzydla i peleryny widoczne tylko dla Ciebie.",
+  "authors": ["Klocc"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.klocc.kloccosmetics.KloccCosmeticsClient"],
+    "modmenu": ["pl.klocc.kloccosmetics.ModMenuIntegration"]
+  },
+  "mixins": ["kloccosmetics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  }
+}

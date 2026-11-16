@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.klocc.kloccosmetics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerEntityRendererMixin",
+    "PlayerEntityRenderStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
